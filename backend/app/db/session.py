@@ -12,6 +12,6 @@ engine = create_engine(DATABASE_URL)
 # create SessionLocal - allows me to perform queries
 SessionLocal = sessionmaker(bind=engine, autocommit=False, autoflush=False)
 
-# creation of Base class for models
-class Base(DeclarativeBase):
+
+class Base(DeclarativeBase):  # creation of Base class for models
     pass
