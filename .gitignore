@@ -1,0 +1,19 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+backend/venv/
+
+# Environment Variables
+.env
+
+# MacOS
+.DS_Store
+
+# Alembic
+alembic/versions/*.pyc
